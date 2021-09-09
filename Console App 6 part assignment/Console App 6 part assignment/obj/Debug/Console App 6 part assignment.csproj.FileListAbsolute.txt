@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Console App 6 part assignment\Console App 6 part assignment\obj\Debug\Console App 6 part assignment.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Console App 6 part assignment\Console App 6 part assignment\obj\Debug\Console App 6 part assignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Console App 6 part assignment\Console App 6 part assignment\bin\Debug\Console App 6 part assignment.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Console App 6 part assignment\Console App 6 part assignment\bin\Debug\Console App 6 part assignment.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Console App 6 part assignment\Console App 6 part assignment\bin\Debug\Console App 6 part assignment.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Console App 6 part assignment\Console App 6 part assignment\obj\Debug\Console App 6 part assignment.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Console App 6 part assignment\Console App 6 part assignment\obj\Debug\Console App 6 part assignment.pdb
