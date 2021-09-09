@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Shipping_cost_project\Shipping_cost_project\obj\Debug\Shipping_cost_project.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Shipping_cost_project\Shipping_cost_project\obj\Debug\Shipping_cost_project.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Shipping_cost_project\Shipping_cost_project\bin\Debug\Shipping_cost_project.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Shipping_cost_project\Shipping_cost_project\bin\Debug\Shipping_cost_project.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Shipping_cost_project\Shipping_cost_project\bin\Debug\Shipping_cost_project.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Shipping_cost_project\Shipping_cost_project\obj\Debug\Shipping_cost_project.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Shipping_cost_project\Shipping_cost_project\obj\Debug\Shipping_cost_project.pdb
