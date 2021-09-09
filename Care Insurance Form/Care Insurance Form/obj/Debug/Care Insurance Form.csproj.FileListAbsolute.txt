@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Care Insurance Form\Care Insurance Form\bin\Debug\Care Insurance Form.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Care Insurance Form\Care Insurance Form\bin\Debug\Care Insurance Form.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Care Insurance Form\Care Insurance Form\bin\Debug\Care Insurance Form.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Care Insurance Form\Care Insurance Form\obj\Debug\Care Insurance Form.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Care Insurance Form\Care Insurance Form\obj\Debug\Care Insurance Form.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Care Insurance Form\Care Insurance Form\obj\Debug\Care Insurance Form.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Care Insurance Form\Care Insurance Form\obj\Debug\Care Insurance Form.pdb
