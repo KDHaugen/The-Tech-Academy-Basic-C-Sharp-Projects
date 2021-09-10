@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Try_catch assignment\Try_catch assignment\bin\Debug\Try_catch assignment.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Try_catch assignment\Try_catch assignment\bin\Debug\Try_catch assignment.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Try_catch assignment\Try_catch assignment\bin\Debug\Try_catch assignment.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Try_catch assignment\Try_catch assignment\obj\Debug\Try_catch assignment.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Try_catch assignment\Try_catch assignment\obj\Debug\Try_catch assignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Try_catch assignment\Try_catch assignment\obj\Debug\Try_catch assignment.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Try_catch assignment\Try_catch assignment\obj\Debug\Try_catch assignment.pdb
