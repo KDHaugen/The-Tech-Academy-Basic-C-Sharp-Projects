@@ -29,7 +29,7 @@ namespace Class_and_Method_assignment
             Console.WriteLine("Please pick a whole and positive number.");
             int userInp = Convert.ToInt32(Console.ReadLine());
 
-            intDouble(1);
+            intDouble(userInp);
             Console.ReadLine();
         }
     }
