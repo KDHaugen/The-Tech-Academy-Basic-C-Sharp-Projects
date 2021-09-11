@@ -8,17 +8,23 @@ namespace Class_and_Method_assignment
 {
     class Operator
     {
-        public Operator()
+        public int intDouble(int userInp)
         {
-            userInt = Program.userInp;
-            userDouble = Program.userInp * 2;
-            userTriple = Program.userInp * 3;
-            userQuad = Program.userInp * 4;
+            int inputDouble = userInp * 2;
+            Console.WriteLine("Your number doubled is " + inputDouble);
         }
-        public static int userInt { get; set; }
-        public static int userDouble {get; set;}
-        public static int userTriple {get; set;}
-        public static int userQuad {get; set;}
+        public int intTriple(int userInp)
+        {
+            int inputTriple = userInp * 3;
+            Console.WriteLine("Your number tripled is " + inputTriple);
+        }
+        public int intQuadruple(int userInp)
+        {
+            int inputQuadruple = userInp * 4;
+            Console.WriteLine("Your number quadrupled is " + inputQuadruple);
+
+        }
+        
 
     }
 }
