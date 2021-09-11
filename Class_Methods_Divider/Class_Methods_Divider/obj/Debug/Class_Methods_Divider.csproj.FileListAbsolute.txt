@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class_Methods_Divider\Class_Methods_Divider\bin\Debug\Class_Methods_Divider.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class_Methods_Divider\Class_Methods_Divider\bin\Debug\Class_Methods_Divider.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class_Methods_Divider\Class_Methods_Divider\bin\Debug\Class_Methods_Divider.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class_Methods_Divider\Class_Methods_Divider\obj\Debug\Class_Methods_Divider.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class_Methods_Divider\Class_Methods_Divider\obj\Debug\Class_Methods_Divider.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class_Methods_Divider\Class_Methods_Divider\obj\Debug\Class_Methods_Divider.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class_Methods_Divider\Class_Methods_Divider\obj\Debug\Class_Methods_Divider.pdb

@@ -10,6 +10,9 @@ namespace Class_Methods_Divider
     {
         static void Main(string[] args)
         {
+            Divider half = new Divider();
+            half.halver(8,3);
+            Console.ReadLine();
         }
     }
 }
