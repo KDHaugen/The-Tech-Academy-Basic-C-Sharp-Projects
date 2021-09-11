@@ -19,7 +19,7 @@ namespace Class_Methods3
                 
                 //Prompt and receieve a second integer from user. Can be left blank.
             Console.WriteLine("Please enter another positive whole number. You may leave this submission blank.");
-            int intTwo = Convert.ToInt32(Console.ReadLine()+0); //Add "+0" so variable always results in interger even if submission is blank.
+            int intTwo = Convert.ToInt32(Console.ReadLine() + 0); //Add "+0" so variable always results in interger even if submission is blank.
 
                 //Call method twoIntMethod() to find sum of intergers and display them on line.
             Console.WriteLine("Your two numbers added together equal " + sumObj.twoIntMethod(intOne, intTwo));

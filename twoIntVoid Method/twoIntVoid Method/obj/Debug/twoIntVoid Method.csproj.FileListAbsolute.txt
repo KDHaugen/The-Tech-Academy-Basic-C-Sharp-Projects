@@ -1,0 +1,6 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\twoIntVoid Method\twoIntVoid Method\bin\Debug\twoIntVoid Method.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\twoIntVoid Method\twoIntVoid Method\bin\Debug\twoIntVoid Method.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\twoIntVoid Method\twoIntVoid Method\bin\Debug\twoIntVoid Method.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\twoIntVoid Method\twoIntVoid Method\obj\Debug\twoIntVoid Method.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\twoIntVoid Method\twoIntVoid Method\obj\Debug\twoIntVoid Method.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\twoIntVoid Method\twoIntVoid Method\obj\Debug\twoIntVoid Method.pdb
