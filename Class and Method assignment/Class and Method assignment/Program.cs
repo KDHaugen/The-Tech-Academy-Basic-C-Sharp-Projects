@@ -18,7 +18,7 @@ namespace Class_and_Method_assignment
             int inputTriple = userInp * 3;
             Console.WriteLine("Your number tripled is " + inputTriple);
         }
-        static void intQuadrupl(int userInp)
+        static void intQuadruple(int userInp)
         {
             int inputQuadruple = userInp * 4;
             Console.WriteLine("Your number quadrupled is " + inputQuadruple);
@@ -30,6 +30,8 @@ namespace Class_and_Method_assignment
             int userInp = Convert.ToInt32(Console.ReadLine());
 
             intDouble(userInp);
+            intTriple(userInp);
+            intQuadruple(userInp);
             Console.ReadLine();
         }
     }
