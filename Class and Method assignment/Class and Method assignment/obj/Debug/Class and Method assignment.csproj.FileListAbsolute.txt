@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class and Method assignment\Class and Method assignment\obj\Debug\Class and Method assignment.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class and Method assignment\Class and Method assignment\obj\Debug\Class and Method assignment.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class and Method assignment\Class and Method assignment\bin\Debug\Class and Method assignment.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class and Method assignment\Class and Method assignment\bin\Debug\Class and Method assignment.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class and Method assignment\Class and Method assignment\bin\Debug\Class and Method assignment.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class and Method assignment\Class and Method assignment\obj\Debug\Class and Method assignment.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Class and Method assignment\Class and Method assignment\obj\Debug\Class and Method assignment.pdb
