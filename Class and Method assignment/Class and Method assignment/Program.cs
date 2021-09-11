@@ -14,9 +14,9 @@ namespace Class_and_Method_assignment
             Console.WriteLine("Please pick a whole and positive number.");
             int userInp = Convert.ToInt32(Console.ReadLine());
 
-            intDouble(userInp);
-            intTriple(userInp);
-            intQuadruple(userInp);
+            Console.WriteLine("Your number doubled is " + Operator.intDouble(userInp));
+            Console.WriteLine("Your number tripled is " + Operator.intTriple(userInp));
+            Console.WriteLine("Your number quadrupled is " + Operator.intQuadruple(userInp));
             Console.ReadLine();
         }
     }

@@ -8,20 +8,20 @@ namespace Class_and_Method_assignment
 {
     class Operator
     {
-        public int intDouble(int userInp)
+        public int intDouble(int x)
         {
-            int inputDouble = userInp * 2;
-            Console.WriteLine("Your number doubled is " + inputDouble);
+            return  x * 2;
+            
         }
-        public int intTriple(int userInp)
+        public int intTriple(int x)
         {
-            int inputTriple = userInp * 3;
-            Console.WriteLine("Your number tripled is " + inputTriple);
+            return x * 3;
+            
         }
-        public int intQuadruple(int userInp)
+        public int intQuadruple(int x)
         {
-            int inputQuadruple = userInp * 4;
-            Console.WriteLine("Your number quadrupled is " + inputQuadruple);
+            return x * 4;
+            
 
         }
         
