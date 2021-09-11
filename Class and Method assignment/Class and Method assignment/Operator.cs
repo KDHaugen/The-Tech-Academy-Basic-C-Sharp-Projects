@@ -10,6 +10,7 @@ namespace Class_and_Method_assignment
     {
         public int intDouble(int x)
         {
+
             return  x * 2;
             
         }
