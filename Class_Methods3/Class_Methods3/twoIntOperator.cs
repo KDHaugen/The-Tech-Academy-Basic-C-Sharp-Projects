@@ -8,7 +8,7 @@ namespace Class_Methods3
 {
     class twoIntOperator
     {
-        public int twoIntMethod(int x, int y)
+        public int twoIntMethod(int x, int y = 0)
         {
             return x + y;
         }
