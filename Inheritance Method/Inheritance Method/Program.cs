@@ -17,7 +17,8 @@ namespace Inheritance_Method
 
             foreach(string fname in employee.fName)
             {
-                employee.SayName(fname);
+                string y = employee.lName.ToString();
+                employee.SayName(fname, y);
             }
             Console.ReadLine();
 
