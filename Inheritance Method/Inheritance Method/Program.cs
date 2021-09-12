@@ -15,11 +15,19 @@ namespace Inheritance_Method
             employee.lName = new List<string>() { "Haugen", "Hyashi", "Smith" };
             employee.ID = new List<int>() { 1, 2, 3 };
 
-            foreach(string fname in employee.fName)
+            //List<string> tempFName = new List<string>();
+            //List<string> tempLName = new List<string>();
+
+            
+            foreach (string fname in employee.fName)
             {
-                string y = employee.lName.ToString();
-                employee.SayName(fname, y);
+                foreach (string lname in employee.lName) 
+                {
+                    employee.SayName(fname,lname);
+                }
             }
+
+            //employee.SayName(employee.fName, employee.lName);
             Console.ReadLine();
 
         }

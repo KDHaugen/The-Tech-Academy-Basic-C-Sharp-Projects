@@ -11,7 +11,7 @@ namespace Inheritance_Method
         public List<int> ID { get; set; }
         public void SayName(string x = null, string y = null, string z = null)
         {
-            Console.WriteLine("Name: " + x + y);
+            Console.WriteLine("Name: " + x + " " + y);
         }
 
     }
