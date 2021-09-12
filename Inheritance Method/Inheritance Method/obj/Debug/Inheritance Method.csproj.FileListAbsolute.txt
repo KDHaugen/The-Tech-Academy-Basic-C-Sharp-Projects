@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Inheritance Method\Inheritance Method\obj\Debug\Inheritance Method.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Inheritance Method\Inheritance Method\obj\Debug\Inheritance Method.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Inheritance Method\Inheritance Method\bin\Debug\Inheritance Method.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Inheritance Method\Inheritance Method\bin\Debug\Inheritance Method.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Inheritance Method\Inheritance Method\bin\Debug\Inheritance Method.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Inheritance Method\Inheritance Method\obj\Debug\Inheritance Method.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Inheritance Method\Inheritance Method\obj\Debug\Inheritance Method.pdb
