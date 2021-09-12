@@ -16,10 +16,12 @@ namespace Class_Methods_Divider
         }
 
         //Add an overloaded method that divides the 
-        public void halver(int input, int times = 1)
+        public void halver(out int divbase, int input, int times = 1)
         {
-                int halved2 = input / (2*times);
-                Console.WriteLine("Your number halved " +times+" times is "+halved2);
+            divbase = 2;
+            int halved2 = input / (divbase * times);
+            Console.WriteLine("Your number halved " + times + " times is " + halved2);
         }
+
     }
 }
