@@ -10,24 +10,15 @@ namespace Inheritance_Method
     {
         static void Main(string[] args)
         {
+                //Instantiate Employee class as object employee
             Employee employee = new Employee();
-            employee.fName = new List<string>() { "Kyle", "Karli", "Elli" };
-            employee.lName = new List<string>() { "Haugen", "Hyashi", "Smith" };
-            employee.ID = new List<int>() { 1, 2, 3 };
 
-            //List<string> tempFName = new List<string>();
-            //List<string> tempLName = new List<string>();
+                //Assign strings fName and lName.
+            employee.fName = "Sample";
+            employee.lName = "Student";
 
-            
-            foreach (string fname in employee.fName)
-            {
-                foreach (string lname in employee.lName) 
-                {
-                    employee.SayName(fname,lname);
-                }
-            }
+            employee.SayName(employee.fName, employee.lName);
 
-            //employee.SayName(employee.fName, employee.lName);
             Console.ReadLine();
 
         }
