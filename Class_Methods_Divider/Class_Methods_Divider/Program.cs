@@ -11,7 +11,12 @@ namespace Class_Methods_Divider
         static void Main(string[] args)
         {
             Divider half = new Divider();
-            half.halver(8,3);
+            Console.WriteLine("Please enter a number to be divided in half");
+            int userInput = Convert.ToInt32(Console.ReadLine());
+
+            half.halver(userInput);
+            half.halver(userInput, 2);
+            //half.halver(8,3);
             Console.ReadLine();
         }
     }
