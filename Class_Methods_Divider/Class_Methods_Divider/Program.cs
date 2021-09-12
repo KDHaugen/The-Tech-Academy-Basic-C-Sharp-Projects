@@ -15,8 +15,7 @@ namespace Class_Methods_Divider
             int userInput = Convert.ToInt32(Console.ReadLine());
 
             half.halver(userInput);
-            //half.halver(userInput);
-                //half.halver(8,3);
+            half.halver(userInput,2);
 
             
             Console.ReadLine();
