@@ -8,6 +8,7 @@ namespace Class_Methods_Divider
 {
     class Divider
     {
+        //me
         public void halver(int x)
         {
             int halved = x / 2;
@@ -18,7 +19,7 @@ namespace Class_Methods_Divider
         public void halver(int input, int times = 1)
         {
                 int halved2 = input / (2*times);
-                Console.WriteLine("Your number halved " +times +" times is " + halved2);
+                Console.WriteLine("Your number halved " +times+" times is "+halved2);
         }
     }
 }
