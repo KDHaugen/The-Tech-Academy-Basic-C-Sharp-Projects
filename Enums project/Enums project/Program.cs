@@ -12,17 +12,19 @@ namespace Enums_project
         {
             try
             {
-                Console.WriteLine("Please enter today's day of the week");
-                string today = Console.ReadLine();
-                Weekday day = Weekday.Monday;
-
-                Console.WriteLine( "Yes, today is "+ today);
+                    //Prompt user to pick a day of weeks
+                Console.WriteLine("What is your favorite day of the week");
+                    //Receive a string from user and check if it exist in the enum Weekday
+                Weekday today = (Weekday)Enum.Parse(typeof(Weekday), Console.ReadLine());
+                    //Tell user their favorite day of week
+                Console.WriteLine( "Your favorite day of the week is "+ today);
                 
               
             }
+                //If no proper weekday is inputted by user, display this error message.
             catch
             {
-                Console.WriteLine("That is not today.");
+                Console.WriteLine("That is not a day of the week.");
             }
             finally
             {
