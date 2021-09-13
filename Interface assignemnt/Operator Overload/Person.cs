@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Operator_Overload
 {
-    class Person
+    public class Person
     {
         public List<string> fName { get; set; }
         public List<string> lName { get; set; }

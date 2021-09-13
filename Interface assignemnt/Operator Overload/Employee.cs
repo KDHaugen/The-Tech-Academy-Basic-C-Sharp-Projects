@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace Operator_Overload
 {
-    class Employee : Person { 
+    public class Employee : Person , IQuittable
+    { 
         public List<int> ID { get; set; }
 
         public void Quit(Employee employee)

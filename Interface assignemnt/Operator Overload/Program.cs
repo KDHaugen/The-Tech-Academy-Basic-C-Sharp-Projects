@@ -13,6 +13,7 @@ namespace Operator_Overload
                 //Instatiate Employee class using obj employee
             Employee employee = new Employee();
             employee.Quit(employee);
+                //Fill employee lists fName, lName and ID.
             employee.fName = new List<string>() { "Kyle", "Karli", "Elli" };
             employee.lName = new List<string>() { "Haugen", "Hyashi", "Smith" };
             employee.ID = new List<int>() { 1, 2, 3 };
