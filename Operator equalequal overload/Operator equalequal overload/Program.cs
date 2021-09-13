@@ -43,8 +43,8 @@ namespace Operator_equalequal_overload
     {
         static void Main(string[] args)
         {
-            Compare ID1 = new Compare(1);
-            Compare ID2 = new Compare(1);
+            Compare ID1 = new Compare(101);
+            Compare ID2 = new Compare(101);
 
                 if (ID1 == ID2)
                     Console.WriteLine("Same ID");
