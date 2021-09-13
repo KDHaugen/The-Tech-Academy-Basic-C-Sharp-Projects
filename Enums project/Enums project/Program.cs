@@ -12,10 +12,11 @@ namespace Enums_project
         {
             try
             {
-                Weekday day = Weekday.Sunday;
                 Console.WriteLine("Please enter today's day of the week");
                 string today = Console.ReadLine();
-                Console.WriteLine( "Yes, today is "+ day);
+                Weekday day = Weekday.Monday;
+
+                Console.WriteLine( "Yes, today is "+ today);
                 
               
             }
@@ -30,6 +31,7 @@ namespace Enums_project
 
         }
     }
+        //create enum class Weekday with real day weekdays listed Sunday-Saturday.
     public enum Weekday
     {
         Sunday,
