@@ -10,6 +10,7 @@ namespace Operator_Overload
     {
         static void Main(string[] args)
         {
+                //Instatiate Employee class using obj employee
             Employee employee = new Employee();
             employee.Quit(employee);
             employee.fName = new List<string>() { "Kyle", "Karli", "Elli" };

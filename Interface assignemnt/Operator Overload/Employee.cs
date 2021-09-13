@@ -6,13 +6,12 @@ using System.Threading.Tasks;
 
 namespace Operator_Overload
 {
-    class Employee : Person
-    {
+    class Employee : Person { 
         public List<int> ID { get; set; }
 
-        //public void Quit(Employee employee)
-        //{
-        //    throw new NotImplementedException();
-        //}
+        public void Quit(Employee employee)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
