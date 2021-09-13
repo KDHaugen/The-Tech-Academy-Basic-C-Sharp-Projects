@@ -1,0 +1,7 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Operator equalequal overload\Operator equalequal overload\obj\Debug\Operator equalequal overload.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Operator equalequal overload\Operator equalequal overload\obj\Debug\Operator equalequal overload.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Operator equalequal overload\Operator equalequal overload\bin\Debug\Operator equalequal overload.exe.config
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Operator equalequal overload\Operator equalequal overload\bin\Debug\Operator equalequal overload.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Operator equalequal overload\Operator equalequal overload\bin\Debug\Operator equalequal overload.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Operator equalequal overload\Operator equalequal overload\obj\Debug\Operator equalequal overload.exe
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Operator equalequal overload\Operator equalequal overload\obj\Debug\Operator equalequal overload.pdb
