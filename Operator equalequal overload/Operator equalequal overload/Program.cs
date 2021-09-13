@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace Operator_equalequal_overload
 {
+        //Create Compare class that sets "==" boolean opearator overload.
     class Compare {
         int ID;
         public Compare()
@@ -43,9 +44,11 @@ namespace Operator_equalequal_overload
     {
         static void Main(string[] args)
         {
+                //create new objects to compare.
             Compare ID1 = new Compare(101);
             Compare ID2 = new Compare(101);
 
+                    //if boolean to check if two objects have same integer value.
                 if (ID1 == ID2)
                     Console.WriteLine("Same ID");
                 else
