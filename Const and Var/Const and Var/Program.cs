@@ -17,7 +17,11 @@ namespace Const_and_Var
             {
                 Console.WriteLine("Var recognizes anInt as an interer.");
             }
+
+            
+
             Console.ReadLine();
         }
     }
 }
+
