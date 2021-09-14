@@ -12,3 +12,4 @@ namespace Interface_assignemnt
         void Quit(Employee employee);
     }
 }
+
