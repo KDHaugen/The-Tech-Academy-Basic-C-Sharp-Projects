@@ -12,6 +12,7 @@ namespace Operator_Overload
         {
                 //Instatiate Employee class using obj employee
             Employee employee = new Employee();
+            IQuittable quit = new Employee();
             employee.Quit(employee);
                 //Fill employee lists fName, lName and ID.
             employee.fName = new List<string>() { "Kyle", "Karli", "Elli" };

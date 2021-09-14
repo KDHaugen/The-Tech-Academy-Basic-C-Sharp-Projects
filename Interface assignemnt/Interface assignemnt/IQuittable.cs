@@ -8,6 +8,7 @@ namespace Interface_assignemnt
 {
     interface IQuittable
     {
+        //Create interfaced Method Quit();
         void Quit(Employee employee);
     }
 }

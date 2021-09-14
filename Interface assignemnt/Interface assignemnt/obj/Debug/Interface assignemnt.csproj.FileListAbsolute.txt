@@ -1,7 +1,6 @@
 C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Interface assignemnt\Interface assignemnt\bin\Debug\Interface assignemnt.exe.config
 C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Interface assignemnt\Interface assignemnt\bin\Debug\Interface assignemnt.exe
 C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Interface assignemnt\Interface assignemnt\bin\Debug\Interface assignemnt.pdb
-C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Interface assignemnt\Interface assignemnt\obj\Debug\Interface assignemnt.csproj.AssemblyReference.cache
 C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Interface assignemnt\Interface assignemnt\obj\Debug\Interface assignemnt.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Interface assignemnt\Interface assignemnt\obj\Debug\Interface assignemnt.exe
 C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Interface assignemnt\Interface assignemnt\obj\Debug\Interface assignemnt.pdb

@@ -1,0 +1,2 @@
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Interface assignemnt\Operator Overload\obj\Debug\Operator Overload.csproj.AssemblyReference.cache
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\Interface assignemnt\Operator Overload\obj\Debug\Operator Overload.csproj.CoreCompileInputs.cache

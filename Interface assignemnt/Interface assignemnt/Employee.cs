@@ -7,12 +7,13 @@ using System.Threading.Tasks;
 namespace Interface_assignemnt
 {
     class Employee : Person, IQuittable
-    {
+    {   
+        //Create int list called ID
         public List<int> ID { get; set; }
-
+            //Define Quit() method.
         public void Quit(Employee employee)
         {
-            throw new NotImplementedException();
+            Console.WriteLine("Something");
         }
     }
 }
