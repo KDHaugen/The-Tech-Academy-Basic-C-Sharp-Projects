@@ -57,18 +57,16 @@ namespace CarInsurance1.Controllers
             if (ModelState.IsValid)
             {
                 //Base Quote value
-                insuree.Quote = 50;
+                insuree.Quote = 75;
 
                     //Calculate age
                 var today = DateTime.Today;
                 var eighteenAgo = today.AddYears(-18);
                 var twentyFiveAgo = today.AddYears(-25);
 
-                if (insuree.DateOfBirth >  eighteenAgo) insuree.Quote += 100;
+                if (insuree.DateOfBirth >  eighteenAgo) insuree.Quote += 50;
 
-                if (insuree.DateOfBirth < eighteenAgo && insuree.DateOfBirth > twentyFiveAgo) insuree.Quote += 50;
-
-                if (insuree.DateOfBirth < twentyFiveAgo) insuree.Quote += 25;
+                if (insuree.DateOfBirth > twentyFiveAgo) insuree.Quote += 25;
 
                 if (insuree.CarYear < 2000) insuree.Quote += 25;
 
