@@ -4,3 +4,4 @@ C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\DateOfBi
 C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\DateOfBirth\DateOfBirth\obj\Debug\DateOfBirth.csproj.CoreCompileInputs.cache
 C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\DateOfBirth\DateOfBirth\obj\Debug\DateOfBirth.exe
 C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\DateOfBirth\DateOfBirth\obj\Debug\DateOfBirth.pdb
+C:\Users\Admin\Documents\GitHub\The-Tech-Academy-Basic-C-Sharp-Projects\DateOfBirth\DateOfBirth\obj\Debug\DateOfBirth.csproj.AssemblyReference.cache

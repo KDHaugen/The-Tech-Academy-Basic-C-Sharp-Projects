@@ -20,6 +20,12 @@ namespace CarInsurance1.Controllers
             return View(db.Insurees.ToList());
         }
 
+        // GET: Insuree
+        public ActionResult Admin()
+        {
+            return View(db.Insurees.ToList());
+        }
+
         // GET: Insuree/Details/5
         public ActionResult Details(int? id)
         {
@@ -50,32 +56,32 @@ namespace CarInsurance1.Controllers
         {
             if (ModelState.IsValid)
             {
-                    //Base Quote value
+                //Base Quote value
                 insuree.Quote = 50;
 
                     //Calculate age
-                //var today = DateTime.Today;
-                //int age = Convert.ToInt32((today - insuree.DateOfBirth)) / 365;
+                var today = DateTime.Today;
+                int age = Convert.ToInt32((today - insuree.DateOfBirth)) / 365;
 
-                //if(age < 18) insuree.Quote += 100;
+                if (age < 18) insuree.Quote += 100;
 
-                //if (Enumerable.Range(19, 25).Contains(age)) insuree.Quote += 50;
+                if (Enumerable.Range(19, 25).Contains(age)) insuree.Quote += 50;
 
-                //if (age > 25) insuree.Quote += 25;
+                if (age > 25) insuree.Quote += 25;
 
-                if(insuree.CarYear < 2000) insuree.Quote += 25;
+                if (insuree.CarYear < 2000) insuree.Quote += 25;
 
-                if(insuree.CarYear > 2015) insuree.Quote += 25;
+                if (insuree.CarYear > 2015) insuree.Quote += 25;
 
-                if(insuree.CarMake == "Porshe") insuree.Quote += 25;
+                if (insuree.CarMake == "Porshe") insuree.Quote += 25;
 
-                if(insuree.CarMode == "911 Carrera") insuree.Quote += 25;
+                if (insuree.CarMode == "911 Carrera") insuree.Quote += 25;
 
-                insuree.Quote += 10*insuree.SpeedingTickets;
+                insuree.Quote += 10 * insuree.SpeedingTickets;
 
-                if(insuree.DUI) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.25m);
+                if (insuree.DUI) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.25m);
 
-                if(insuree.CoverageType) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.5m);
+                if (insuree.CoverageType) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.5m);
 
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
@@ -151,12 +157,6 @@ namespace CarInsurance1.Controllers
             base.Dispose(disposing);
         }
 
-        public ActionResult Admin()
-        {
-            
-            return View();
-        }
     }
-
 
 }
