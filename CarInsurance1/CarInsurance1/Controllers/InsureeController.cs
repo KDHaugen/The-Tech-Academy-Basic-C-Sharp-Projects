@@ -61,13 +61,14 @@ namespace CarInsurance1.Controllers
 
                     //Calculate age
                 var today = DateTime.Today;
-                int age = Convert.ToInt32((today - insuree.DateOfBirth)) / 365;
+                var eighteenAgo = today.AddYears(-18);
+                var twentyFiveAgo = today.AddYears(-25);
 
-                if (age < 18) insuree.Quote += 100;
+                if (insuree.DateOfBirth >  eighteenAgo) insuree.Quote += 100;
 
-                if (Enumerable.Range(19, 25).Contains(age)) insuree.Quote += 50;
+                if (insuree.DateOfBirth < eighteenAgo && insuree.DateOfBirth > twentyFiveAgo) insuree.Quote += 50;
 
-                if (age > 25) insuree.Quote += 25;
+                if (insuree.DateOfBirth < twentyFiveAgo) insuree.Quote += 25;
 
                 if (insuree.CarYear < 2000) insuree.Quote += 25;
 

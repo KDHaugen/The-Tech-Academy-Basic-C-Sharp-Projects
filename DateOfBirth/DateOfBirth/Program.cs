@@ -10,19 +10,25 @@ namespace DateOfBirth
     {
         static void Main(string[] args)
         {
-            DateTime dob = Convert.ToDateTime("1989/10/22");
+            DateTime dob = Convert.ToDateTime("2015/10/22");
             DateTime today = DateTime.Today;
+
+            var eighteenYearsAgo = today.AddYears(-18);
 
             var age = today - dob;
 
             Console.WriteLine(dob);
             Console.WriteLine(age);
-            Console.ReadLine();
+            Console.WriteLine(eighteenYearsAgo);
+            if(dob > eighteenYearsAgo)
+            {
+                Console.WriteLine("You are younger than 18");
+            }
+            else
+            {
+                Console.WriteLine("You are older than 18");
 
-            var today1 = DateTime.Today;
-            int age1 = Convert.ToInt32((today1 - dob)) / 365;
-
-            Console.WriteLine(age1);
+            }
             Console.ReadLine();
         }
     }
