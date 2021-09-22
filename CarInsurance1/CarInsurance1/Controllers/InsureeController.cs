@@ -56,35 +56,10 @@ namespace CarInsurance1.Controllers
         {
             if (ModelState.IsValid)
             {
-                //Base Quote value
-                insuree.Quote = 75;
-
-                    //Calculate age
-                var today = DateTime.Today;
-                var eighteenAgo = today.AddYears(-18);
-                var twentyFiveAgo = today.AddYears(-25);
-
-                if (insuree.DateOfBirth >  eighteenAgo) insuree.Quote += 50;
-
-                if (insuree.DateOfBirth > twentyFiveAgo) insuree.Quote += 25;
-
-                if (insuree.CarYear < 2000) insuree.Quote += 25;
-
-                if (insuree.CarYear > 2015) insuree.Quote += 25;
-
-                if (insuree.CarMake == "Porshe") insuree.Quote += 25;
-
-                if (insuree.CarMode == "911 Carrera") insuree.Quote += 25;
-
-                insuree.Quote += 10 * insuree.SpeedingTickets;
-
-                if (insuree.DUI) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.25m);
-
-                if (insuree.CoverageType) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.5m);
-
+                insuree.Quote = insQuote(insuree);
                 db.Insurees.Add(insuree);
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Admin");
             }
 
             return View(insuree);
@@ -114,9 +89,10 @@ namespace CarInsurance1.Controllers
         {
             if (ModelState.IsValid)
             {
+                insuree.Quote = insQuote(insuree);
                 db.Entry(insuree).State = EntityState.Modified;
                 db.SaveChanges();
-                return RedirectToAction("Index");
+                return RedirectToAction("Admin");
             }
             return View(insuree);
         }
@@ -156,6 +132,36 @@ namespace CarInsurance1.Controllers
             base.Dispose(disposing);
         }
 
+
+        public decimal insQuote(Insuree insuree)
+        {
+            //Base Quote value
+            insuree.Quote = 75;
+
+            //Calculate age
+            var today = DateTime.Today;
+            var eighteenAgo = today.AddYears(-18);
+            var twentyFiveAgo = today.AddYears(-25);
+
+            if (insuree.DateOfBirth > eighteenAgo) insuree.Quote += 50;
+
+            if (insuree.DateOfBirth > twentyFiveAgo) insuree.Quote += 25;
+
+            if (insuree.CarYear < 2000 || insuree.CarYear > 2015) insuree.Quote += 25;
+
+            if (insuree.CarMake == "Porshe") insuree.Quote += 25;
+
+            if (insuree.CarMode == "911 Carrera") insuree.Quote += 25;
+
+            insuree.Quote += 10 * insuree.SpeedingTickets;
+
+            if (insuree.DUI) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.25m);
+
+            if (insuree.CoverageType) insuree.Quote = Decimal.Multiply(insuree.Quote, 1.5m);
+
+            return insuree.Quote;
+        }
     }
+    
 
 }
