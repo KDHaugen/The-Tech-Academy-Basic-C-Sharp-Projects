@@ -19,7 +19,9 @@ namespace RealTimeServerClock.Pages
 
         public void OnGet()
         {
-
+            string dateTime = DateTime.Now.ToLongTimeString();
+            ViewData["TimeStamp"] = dateTime;
         }
+    
     }
 }
